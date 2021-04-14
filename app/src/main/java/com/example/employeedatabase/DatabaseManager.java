@@ -25,7 +25,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
 
         String sql = "CREATE TABLE " + TABLE_NAME + " (\n" +
-                " " + COLUMN_ID + " AINTEGER NOT NULL CONSTRAINT employees_pk PRIMARY KEY AUTOINCREMENT, \n" +
+                " " + COLUMN_ID + " INTEGER NOT NULL CONSTRAINT employees_pk PRIMARY KEY AUTOINCREMENT, \n" +
                 " " + COLUMN_NAME + " varchar(200) NOT NULL,\n" +
                 " " + COLUMN_DEPT + " varchar(200) NOT NULL,\n" +
                 " " + COLUMN_JOIN_DATE + " datetime NOT NULL,\n" +
