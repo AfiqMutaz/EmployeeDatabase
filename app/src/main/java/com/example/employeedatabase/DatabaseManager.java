@@ -18,7 +18,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
     private static final String COLUMN_SALARY = "salary";
 
     DatabaseManager(Context context) {
-        super(context, DATABSE_NAME, null, DATABASE_VERSION);
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
     @Override
